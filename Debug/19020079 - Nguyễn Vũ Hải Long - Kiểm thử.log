@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\code\Test\19020079 - Nguyễn Vũ Hải Long - Kiểm thử\main.cpp(71,21): warning C4018: '<': signed/unsigned mismatch
+D:\code\Test\19020079 - Nguyễn Vũ Hải Long - Kiểm thử\main.cpp(19): warning C4715: 'getLetterGrade': not all control paths return a value
+  19020079 - Nguyễn Vũ Hải Long - Kiểm thử.vcxproj -> D:\code\Test\19020079 - Nguyễn Vũ Hải Long - Kiểm thử\Debug\19020079 - Nguyễn Vũ Hải Long - Kiểm thử.exe

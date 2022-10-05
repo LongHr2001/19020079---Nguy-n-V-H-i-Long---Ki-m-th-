@@ -1,0 +1,2 @@
+#define BOUNDARY_TEST 1
+#define EQUIVALENCE_TEST 0
