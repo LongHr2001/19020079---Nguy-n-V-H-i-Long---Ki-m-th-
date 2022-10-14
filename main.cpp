@@ -6,16 +6,23 @@
 
 char getLetterGrade(double midtermGrade, double finalExamGrade) {
 	//Check if Grades are valid
-	if (midtermGrade < 0.0 || midtermGrade > 10.0) return '0';
-	if (finalExamGrade < 0.0 || finalExamGrade > 10.0) return '0';
+	if (midtermGrade < 0.0 || midtermGrade > 10.0)
+		return '0';
+	if (finalExamGrade < 0.0 || finalExamGrade > 10.0)
+		return '0';
 
 	double averageGrade = midtermGrade * 0.4 + finalExamGrade * 0.6;
 
-	if (averageGrade < 4.0) return 'F';
-	else if (averageGrade >= 4.0 && averageGrade < 5.5) return 'D';
-	else if (averageGrade >= 5.5 && averageGrade < 7.0) return 'C';
-	else if (averageGrade >= 7.0 && averageGrade < 8.5) return 'B';
-	else if (averageGrade >= 8.5) return 'A';
+	if (averageGrade < 4.0)
+		return 'F';
+	else if (averageGrade >= 4.0 && averageGrade < 5.5)
+		return 'D';
+	else if (averageGrade >= 5.5 && averageGrade < 7.0)
+		return 'C';
+	else if (averageGrade >= 7.0 && averageGrade < 8.5)
+		return 'B';
+	else if (averageGrade >= 8.5)
+		return 'A';
 };
 
 int main() {
@@ -27,6 +34,10 @@ int main() {
 
 #if EQUIVALENCE_TEST
 	pFile = fopen("equivalencePartitioning/testcases.txt", "r");
+#endif
+
+#if CONTROLFLOW_TEST
+	pFile = fopen("controlFlow/testcases.txt", "r");
 #endif
 
 	if (pFile != NULL) {
