@@ -40,6 +40,10 @@ int main() {
 	pFile = fopen("controlFlow/testcases.txt", "r");
 #endif
 
+#if DATAFLOW_TEST
+	pFile = fopen("dataFlow/testcases.txt", "r");
+#endif
+
 	if (pFile != NULL) {
 		int numOfTest;
 		int passedTests = 0;
